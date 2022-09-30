@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    
+    background-image: url(imagenes/fondo.gif);
+}
+
+header{
+    width: 100%;
+    height: 6%;
+}
+
+.imagen{
+    
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+main{
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+
+section{
+    width: 40%;
+    height: 100%;
+}
+
+.seccionuno{
+    width: 70%;
+    
+}
+
+.input-texto{
+
+    margin-left: 100px;
+    margin-top: -30px;
+    border-radius: 10px;
+    background-image: url(imagenes/Charmander-PNG-File.png);
+    background-repeat: no-repeat;
+    background-position: 90px 150px ;
+    background-size: 340px;
+    font-size: 30px;
+    background-color: #030303;
+    color: #D8DFE8;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #5629f1, 0 0 100px #5637a4; 
+}
+
+.input-texto:hover{
+    padding: 5px;
+    transition: 1s;
+}
+
+p{
+
+    color: #F3F5FC;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.botones{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+    
+}
+
+.encriptar{
+    position: relative;
+    left: 100px;
+    background-color: #D8DFE8;
+    border-color: #0A3871;
+    border-radius: 10px;
+    color: #0A3871;
+}
+
+.encriptar:hover{
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #5629f1, 0 0 100px #5637a4; 
+
+}
+
+.encriptar:active{
+    background-color: #083163;
+    border-color: #4a72a3;
+    border-radius: 10px;
+    color: white;
+}
+
+.desencriptar{
+    position: relative;
+    left: 150px;
+    background-color: #D8DFE8;
+    border-color: #0A3871;
+    border-radius: 10px;
+    color: #0A3871;
+}
+
+.desencriptar:hover{
+   
+
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #5629f1, 0 0 100px #5637a4; 
+
+}
+
+.desencriptar:active{
+    background-color: #083163;
+    border-color: #4a72a3;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.encriptar, .desencriptar{
+    width: 30%;
+    height: 60px;
+   
+   
+    
+}
+
+.mensaje{
+    position: relative;
+    margin-top:-30px;
+    margin-left: 90px;
+    border-radius: 10px;
+    background-image: url(imagenes/pikachu.png.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 500px;
+    font-size: 25px;
+    background-color: #090909;
+    color: #f5fbfb;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #5629f1, 0 0 100px #5637a4; 
+    outline: 0px;
+}
+
+
+
+
+.mensaje:hover{
+    padding: 5px;
+    transition: 1s;
+}
+
+.h1{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 30px;
+    color: #343A40;
+}
+
+.copiar{
+    position: relative;
+    bottom: 110px;
+    width: 30%;
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #D8DFE8;
+    border-color: #f1f3f5;
+    border-radius: 10px;
+    color: #0A3871;
+}
+
+.copiar:hover{
+    
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #5629f1, 0 0 100px #5637a4; 
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: #F3F5FC;
+    
+}
+@media screen and (max-width: 480px){
+        .mensaje{
+            top: 50px;
+            margin-top: 710px;
+            right: 185px;
+       
+        }
+
+        .copiar{
+            width: 90px;
+            bottom: 60px;
+        }
+
+       p{
+        font-size: 20px;
+        margin-left: -80px;
+        margin-top: 67px;
+       
+        
+       }
+
+       .encriptar{
+        width: 200px;
+        top: -100px;
+        left: -90px;
+
+    }
+
+       .desencriptar{
+        width: 200px;
+        top: -70px;
+        left: -90px;
+       }
+}
+
+
+
